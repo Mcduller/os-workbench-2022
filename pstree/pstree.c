@@ -7,5 +7,11 @@ int main(int argc, char *argv[]) {
     printf("argv[%d] = %s\n", i, argv[i]);
   }
   assert(!argv[argc]);
+  
+  for (int i = 0; i < 1000000; i++){
+    /* code */
+    printf("%d",i);
+  }
+
   return 0;
 }
