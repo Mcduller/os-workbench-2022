@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
   
   for (int i = 0; i < 1000000; i++){
     /* code */
-    printf("%d",i);
+    printf("%d\r\n",i);
   }
 
   return 0;
