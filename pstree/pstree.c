@@ -85,7 +85,7 @@ int is_pid(struct dirent *dp)
 
 int main(int argc, char *argv[])
 {
-  printf("hello\n");
+  printf("hello1\n");
   // 获取所有进程信息
   struct PsNodeVector *processes = get_all_ps();
   if (!processes) {
