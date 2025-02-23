@@ -112,6 +112,7 @@ int main(int argc, char *argv[])
   }
 
   // 打印统计信息
+  // test commit
   printf("\nStatistics:\n");
   printf("Total processes: %d\n", processes->size);
   if (error_count > 0) {
